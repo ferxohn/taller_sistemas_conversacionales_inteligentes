@@ -1,0 +1,29 @@
+Referencias:
+* Facebook
+- https://developers.facebook.com/docs/messenger-platform/reference/send-api/
+- https://developers.facebook.com/docs/graph-api/webhooks/getting-started/#configure-webhooks-product
+- https://github.com/fbsamples/messenger-platform-samples/blob/tutorial-starters/quick-start/app.js
+- https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup
+
+* Tutoriales
+- https://medium.com/cmaquera/como-crea-un-chatbot-para-facebook-messenger-con-dialogflow-8fddd17ea230
+- https://medium.com/crowdbotics/how-to-create-your-very-own-facebook-messenger-bot-with-dialogflow-and-node-js-in-just-one-day-f5f2f5792be5
+
+* ECMAScript 2015 o ES6
+- https://www.ecma-international.org/ecma-262/6.0/#sec-exports
+
+* Paquetes de Node.js
+- https://www.npmjs.com/package/request
+- https://github.com/matthew-andrews/isomorphic-fetch
+- https://geekytheory.com/introduccion-a-express-js- https://geekytheory.com/introduccion-a-express-js
+- http://expressjs.com/
+- https://github.github.io/fetch/#Headers
+
+* Node.js
+- https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/
+
+* Dialogflow
+- https://dialogflow.com/docs/getting-started
+
+* Wit.ai
+- https://wit.ai/docs/quickstart

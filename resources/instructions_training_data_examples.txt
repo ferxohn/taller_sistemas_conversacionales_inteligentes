@@ -1,0 +1,86 @@
+Tema del Chatbot: "Seres Paranormales"
+
+Ya sea con Wit.ai o Dialogflow, primero es necesario registrar un nuevo modelo para poder entrenarlo con la siguiente información.
+
+El código de este repositorio está enfocado a realizar peticiones a chatbots de Wit.ai, pues con Dialogflow no es necesario programar nada para llevar a cabo las peticiones desde Messenger.
+
+No olvidar agregar en la aplicación:
+* El token de acceso a una nueva app ligada a una página dentro de Facebook (el token se agrega en el archivo "_code/helpers/processMessage.mjs").
+* El token definido en la configuracion de la app de Facebook (el token se agrega en el archivo "_code/helpers/verification.mjs").
+* El token unico de la app en Wit.ai (el token se agrega en el archivo "_code/examples/WitAiRequest.mjs").
+
+NOTA:
+* EN ESTA LISTA NO ESTÁN TODOS LOS SINÓNIMOS. LAS PREGUNTAS TAMBIÉN CONTIENEN
+OTROS SINÓNIMOS, Y USTEDES PUEDEN INCLUIR MAS SINÓNIMOS.
+* NO TODAS LAS FRASES DE ENTRENAMIENTO SE ENCUENTRAN YA EN LOS MODELOS. POR LO QUE PUEDEN AGREGAR LAS
+QUE HAGAN FALTA, Y AGREGAR NUEVAS FRASES.
+
++ Seres a tomar en cuenta (valores) y sinónimos:
+- zombies: zombies, zombie, muertos, no muertos, muertos vivientes, infectados
+- vampiros: vampiros, vampiro, chupasangre, Drácula, chupador de sangre
+- hombres lobo: hombres lobo, hombre lobo, licantropo, lobizon, hombres bestia, hombre bestia
+- fantasmas: fantasmas, fantasma, almas errantes, alma errante, poltergeist, espiritu, espiritus
+
++ Entidad 1: ser
+* Frases de entrenamiento:
+- ¿Qué es un zombie?
+- ¿Qué es un fantasma?
+- ¿Qué es un vampiro?
+- ¿Qué es un hombre lobo?
+- ¿Qué son los fantasmas?
+- ¿Qué son los licantropos?
+- ¿Qué es un poltergeist?
+- ¿Qué es un no muerto?
+- ¿Por qué se llama chupasangre?
+- ¿A qué le llaman alma errante?
+- Explícame qué es un lobizon.
+- Dime, ¿Qué sabes de Drácula?
+- ¿A qué le llaman infectado?
+* Respuestas:
+- zombies: https://es.wikipedia.org/wiki/Zombi
+- vampiros: https://es.wikipedia.org/wiki/Vampiro
+- hombres lobo: https://es.wikipedia.org/wiki/Hombre_lobo
+- fantasmas: https://es.wikipedia.org/wiki/Fantasma
+
++ Entidad 2: eliminar
+* Frases de entrenamiento:
+- ¿Cómo eliminar a un hombre lobo?
+- ¿Cómo puedo eliminar a un fantasma?
+- Quiero aprender a matar vampiros.
+- Me gustaría saber cómo puedo eliminar a Drácula.
+- Quiero aprender a matar zombies.
+- ¿Cómo se elimina a un licántropo?
+- ¿Cómo matar a un infectado?
+- ¿Cómo puedo eliminar a un poltergeist?
+* Respuestas:
+- zombies: https://elmicrowave.wordpress.com/2014/03/27/como-matar-un-zombi-diez-maneras-de-matar-a-un-zombi/
+- vampiros: http://www.indicepr.com/noticias/2014/06/22/action/22656/5-maneras-de-matar-un-vampiro/
+- hombres lobo: http://www.vampirosyhombreslobos.com/como-matar-a-un-hombrelobo/
+- fantasmas: https://es.wikihow.com/sacar-a-un-fantasma-de-tu-casa
+
++ Entidad 3: existir
+* Frases de entrenamiento:
+- ¿Realmente existen los fantasmas?
+- ¿Existen los hombres lobo?
+- ¿Es posible que existan los zombies?
+- ¿Los vampiros existen?
+- ¿Existen los licantropos?
+* Respuestas:
+- zombies: http://www.rtve.es/noticias/20170203/existen-zombis-muertos-vivientes-bajo-luz-ciencia/1485219.shtml
+- vampiros: https://okdiario.com/curiosidades/2016/10/19/vampiros-reales-463564
+- hombres lobo: http://www.notodo.com/historia-de-los-hombres-lobo
+- fantasmas: http://www.eluniversal.com.mx/articulo/ciencia-y-salud/ciencia/2017/03/1/existen-los-fantasmas-la-fisica-te-contesta
+
++ Entidad 4: sobrevivir:
+* Frases de entrenamiento:
+- ¿Cómo sobrevivir a un apocalipsis zombie?
+- ¿Cómo sobrevivir a un chupador de sangre?
+- ¿Cómo puedo sobrevivir a los vampiros?
+- Enfrentar a un poltergeist.
+- Debo enfrentar a un hombre lobo.
+- ¿Cómo sobrevivir a un lobizon?
+* Respuestas:
+- zombies: https://conectica.com/2015/04/11/consejos-sobrevivir-apocalipsis-zombie/
+- vampiros: https://www.elmundo.es/elmundo/2010/08/14/andalucia_malaga/1281780419.html
+- hombres lobo: https://www.taringa.net/+ciencia_educacion/como-sobrevivir-a-hombres-lobo_i5s2r
+- fantasmas: https://www.revistavanityfair.es/cultura/entretenimiento/articulos/guia-de-instrucciones-para-vivir-en-una-casa-encantada/20915

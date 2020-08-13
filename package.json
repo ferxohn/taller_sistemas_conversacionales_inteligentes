@@ -1,0 +1,32 @@
+{
+  "name": "taller_sistemas_conversacionales_inteligentes",
+  "version": "1.0.0",
+  "description": "Introducción a la creación de chatbots usando Node.js.",
+  "main": "_code/index.mjs",
+  "scripts": {
+    "dev": "node --experimental-modules _code/index.mjs "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferxohn/taller_sistemas_conversacionales_inteligentes.git"
+  },
+  "keywords": [
+    "taller",
+    "chatbot",
+    "2018",
+    "nodejs"
+  ],
+  "author": "Fernando Gomez Perera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferxohn/taller_sistemas_conversacionales_inteligentes/issues"
+  },
+  "homepage": "https://github.com/ferxohn/taller_sistemas_conversacionales_inteligentes#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "es6-promise": "^4.2.5",
+    "express": "^4.16.4",
+    "isomorphic-fetch": "^2.2.1",
+    "request": "^2.88.0"
+  }
+}
